@@ -1,0 +1,11 @@
+1) grep -i '^z' cities.txt
+2) grep 'gan\>' cities.txt -- grep '$gan' cities.txt ??
+3) grep -i '^[a,d,e]' citiex.txt | wc -l
+4) grep -i '\<.ar' cities.txt | wc -l
+5) grep -iv '^c' cities.txt | wc -l
+6) a: grep -E  '^[^ ]{14,}$' cities.txt
+   b: grep -E '^.{14,}' cities.txt | grep -v ' '
+7) grep -i '^b' cities.txt | wc -l
+8) grep -o 'd' cities.txt | wc -l
+9) grep -E '(.)(/1)$' cities.txt
+10) grep -E '^(.)(.).(\2)(\1)$' cities.txt
